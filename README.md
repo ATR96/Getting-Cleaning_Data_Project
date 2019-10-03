@@ -21,8 +21,8 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 
 1. Loads activitylabels and features.
 2. Extracts wanted features i.e mean and standard deviation variables.
-3. Combine train_x, train_y and subject_train into a data frame called train and load it.
-4. Combine test_x, test_y and subject_test into a data frame called test and load it.
+3. Combine X_train, Y_train and subject_train into a data frame called train and load it.
+4. Combine X_test, Y_test and subject_test into a data frame called test and load it.
 5. Merge the two datasets, test and train, into a data frame called mergedt.
 6. Change classlabels to activitynames and converting subject and activity into factors so as to become id.
 7. Creates a second tidy data set with mean of each variable for each activity and each subject.
